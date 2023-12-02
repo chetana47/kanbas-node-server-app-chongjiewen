@@ -17,11 +17,12 @@ mongoose.connect(CONNECTION_STRING);
 
 
 app.use(
-    cors(
-    //   credentials: true,
-    //   origin: '*',
-    )
-   );
+  cors({
+    credentials: true,
+    origin: 'https://taupe-vacherin-8d5c10.netlify.app/'
+  })
+);
+
    
 CourseRoutes(app);
 
