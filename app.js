@@ -19,7 +19,7 @@ mongoose.connect(CONNECTION_STRING);
 app.use(
   cors({
     credentials: true,
-    origin: 'https://a6--taupe-vacherin-8d5c10.netlify.app/'
+    origin: 'https://a6--taupe-vacherin-8d5c10.netlify.app'
   })
 );
 
